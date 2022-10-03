@@ -5,3 +5,7 @@
 ul {
     display: flex;
 }
+
+.container {
+    padding: 0 10%;
+}
