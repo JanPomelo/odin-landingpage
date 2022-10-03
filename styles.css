@@ -39,10 +39,29 @@ h1 {
     font-size: 48px;
     font-weight: 900px;
     color: #f9faf8;
+    margin: 0;
 }
 .hero-text {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-content {
+    flex: 1;
+}
+.hero-image {
+    flex: 1;
+}
+
+
+
+
+
 
 
