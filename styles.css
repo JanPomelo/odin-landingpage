@@ -87,9 +87,35 @@ h1 {
     align-items: center;
     padding: 0 10%;
 }
+.info-header {
+    align-self: center;
+}
+
 .pictures {
     display: flex;
+    gap: 16px;
 }
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.picPlaceholder {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    height: 140px;
+    width: 140px;
+    max-width: 140px;
+    flex-shrink: 1;
+}
+.picText {
+    flex: 1;
+    max-width: 160px;
+    text-align: center;
+}
+
 
 
 
