@@ -2,6 +2,8 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
 .upper-content {
     padding: 0 10%;
     background-color: #1f2937;
@@ -75,6 +77,16 @@ h1 {
 }
 
 /* information section styles */
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+}
+.pictures {
+    display: flex;
+}
 
 
 
