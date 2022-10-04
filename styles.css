@@ -145,7 +145,16 @@ h1 {
     margin-left: auto;
 }
 
+/* action-section Style */
 
+.action-section {
+    margin: 10%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
 
 
 
