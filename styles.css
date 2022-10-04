@@ -148,12 +148,36 @@ h1 {
 /* action-section Style */
 
 .action-section {
-    margin: 10%;
+    margin: 50px 10%;
     background-color: #3882f6;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    justify-content: space-between;
+    padding: 35px 10%;
+    color: #f9faf8;
+    gap: 5px;
+}
+
+
+.action-heading {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.action-paragraph {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.action-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-weight: 600;
 }
 
 
