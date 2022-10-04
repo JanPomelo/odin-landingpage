@@ -87,8 +87,11 @@ h1 {
     align-items: center;
     padding: 0 10%;
 }
+
 .info-header {
-    align-self: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .pictures {
