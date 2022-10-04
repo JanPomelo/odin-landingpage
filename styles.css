@@ -6,7 +6,7 @@ html {
     padding: 0 10%;
     background-color: #1f2937;
 }
-
+/* Header Styles */
 .header {
     display: flex;
     align-items: center;
@@ -33,6 +33,8 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+/* Hero Styles */
 
 .hero {
     display: flex;
@@ -72,7 +74,7 @@ h1 {
     font-size: 18px;
 }
 
-
+/* information section styles */
 
 
 
