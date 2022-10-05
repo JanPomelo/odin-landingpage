@@ -125,10 +125,21 @@ h1 {
     max-width: 140px;
     flex-shrink: 1;
 }
+.picPlaceholder > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
 .picText {
     flex: 1;
     max-width: 160px;
     text-align: center;
+    font-size: 16px;
+}
+.picText > a {
+    color: #1f2937;
+    font-size: 16px;
 }
 
 /* quote-section Style */
