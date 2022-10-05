@@ -166,7 +166,6 @@ h1 {
     font-weight: 300;
     font-size: 36px;
     color: #1f2937;
-    margin-top: 50px;
     margin-bottom: 5px;
 }
 
@@ -209,6 +208,9 @@ h1 {
     border-radius: 5px;
     padding: 5px 25px;
     font-weight: 600;
+}
+.action-button > a {
+    font-size: 16px;
 }
 .footer {
     background-color: #1f2937;
