@@ -125,10 +125,18 @@ h1 {
     max-width: 140px;
     flex-shrink: 1;
 }
+
 .picPlaceholder > img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+#williamsPic {
+    object-position: 0px;
 }
 
 .picText {
